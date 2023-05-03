@@ -15,7 +15,6 @@ During this project I scanned all geotagged tweets sent in 2020 to monitor for t
 Approximately 500 million tweets are sent everyday.
 Of those tweets, about 2% are *geotagged*.
 That is, the user's device includes location information about where the tweets were sent from.
-The lambda server's `/data/Twitter dataset` folder contains all geotagged tweets that were sent in 2020.
 In total, there are about 1.1 billion tweets in this dataset.
 
 **About MapReduce:**
