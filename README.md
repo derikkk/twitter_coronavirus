@@ -49,12 +49,14 @@ Below are the commands I ran to create four different types of bar charts.
 
 # Number of Tweets with #coronavirus in 2020 sorted by top 10 countries
 <img src=covid_country.png width=100% />
+
 ```
 $ ./src/visualize.py --input_path=reduced.country --key='#coronavirus'
 ```
 
 # Number of Tweets with #coronavirus in 2020 sorted by top 10 languages
 <img src=covid_lang.png width=100% />
+
 ```
 $ ./src/visualize.py --input_path=reduced.lang --key='#coronavirus'
 ```
@@ -87,4 +89,3 @@ $ ./src/alternative_reduce.py --keys '#cough' '#sneeze'
 ```
 $ ./src/alternative_reduce.py --keys '#cough' '#sneeze' '#sick'
 ```
-
