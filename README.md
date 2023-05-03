@@ -29,6 +29,7 @@ It is a 3 step procedure summarized in the following image:
 ## Programming Tasks
 
 **Run the mapper and Reduce**
+
 I used the MapReduce process to filter through these tweets based on a set list of hashtags that were related to Covid. I then combined this data into two files based on language or country of origin using the command below. We then get two files, reduced.lang and reduced.country that we can use for visualizations.
 
 ```
